@@ -63,6 +63,11 @@ Hosting node.js applications in IIS on Windows
 - Install for IIS 7.x (see previous sections)
 - `test\functional\test.bat`
 
+**Contribute Code or Provide Feedback**
+If you would like to become an active contributor to this project please follow the instructions provided in <a href="http://windowsazure.github.com/guidelines.html">Windows Azure Projects Contribution Guidelines</a>.
+If you encounter any bugs with the library please file an issue in the <a href="https://github.com/WindowsAzure/iisnode/issues">Issues</a> section of the project.
+
+
 **Resources & documentation**
 
 [Releases](https://github.com/tjanczuk/iisnode/wiki/iisnode-releases)  
