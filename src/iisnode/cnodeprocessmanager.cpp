@@ -127,7 +127,7 @@ int CNodeProcessManager::ExtractStickySessionsProcess( PCSTR pszCookie )
 		if(!pEnd) 
 		{
 			pEnd = pStart;
-			while (pEnd) /* Works because end-of-string and FALSE are identical. */
+			while (*pEnd) /* Works because end-of-string and FALSE are identical. */
 			{
 				pEnd++;
 			}
