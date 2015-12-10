@@ -717,13 +717,14 @@ void CProtocolBridge::SendHttpRequestHeaders(CNodeHttpStoredContext* context)
     memcpy(&activityId, context->GetActivityId(), sizeof GUID);
 
     // request the named pipe to be kept alive by the server after the response is sent
-    // to enable named pipe connection pooling
+    // to enable named pipe connection pooling.
+    // but leave upgrade request untouched
 
     request = context->GetHttpContext()->GetRequest();
 
     pszConnectionHeader = request->GetHeader(HttpHeaderConnection);
     if( pszConnectionHeader == NULL || 
-        (pszConnectionHeader != NULL && stricmp(pszConnectionHeader, "upgrade") != 0))
+        (pszConnectionHeader != NULL && strstr(pszConnectionHeader, "Upgrade") == 0))
     {
         CheckError(request->SetHeader(HttpHeaderConnection, "keep-alive", 10, TRUE));
     }
