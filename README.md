@@ -99,6 +99,11 @@ msbuild /p:Platform=x64 src\iisnode\iisnode.sln
 - `test\functional\test.bat`
 - note that for the WebSocket tests to pass you must be running in IIS 8.x on Windows 8 or Windows Server 2012
 
+**Contribute Code or Provide Feedback**
+If you would like to become an active contributor to this project please follow the instructions provided in <a href="http://windowsazure.github.com/guidelines.html">Windows Azure Projects Contribution Guidelines</a>.
+If you encounter any bugs with the library please file an issue in the <a href="https://github.com/WindowsAzure/iisnode/issues">Issues</a> section of the project.
+
+
 **Resources & documentation**
 
 - [Releases](https://github.com/azure/iisnode/wiki/iisnode-releases)
