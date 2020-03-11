@@ -55,7 +55,6 @@ This can be a head-scratcher since IIS Express 8 gives you both 32-bit and 64-bi
 - [using with URL rewrite module](http://tomasz.janczuk.org/2011/08/using-url-rewriting-with-nodejs.html)
 - [using with WebMatrix and IIS Express](http://tomasz.janczuk.org/2011/08/developing-nodejs-applications-in.html)
 - [site templates for WebMatrix](https://github.com/SteveSanderson/Node.js-Site-Templates-for-WebMatrix)
-- [using with mongodb](http://www.amazedsaint.com/2011/09/creating-10-minute-todo-listing-app-on.html)
 - [diagnosing problems with ETW traces](http://tomasz.janczuk.org/2011/09/using-event-tracing-for-windows-to.html)
 - [using with MVC](http://weblogs.asp.net/jgalloway/archive/2011/10/26/using-node-js-in-an-asp-net-mvc-application-with-iisnode.aspx)
 - [portuguese: node.js no windows: instalando o iisnode](http://vivina.com.br/nodejs-windows-parte-2)
